@@ -6,19 +6,19 @@
     "email": "ramirocosa@gmail.com",
     "phone": "(299) 521-7189",
     "url": "https://ramirocosa.com",
-    "summary": "A summary of John Doe…",
+    "summary": "Soy un programador con una trayectoria única. Durante más de 20 años, trabajé como kinesiólogo en diversas áreas de la atención de la salud. Sin embargo, hace 4 años, decidí dar un giro radical y comenzar mi formación como programador. Desde entonces, he estado inmerso en el mundo de la tecnología, explorando nuevas posibilidades y desafiándome constantemente. Mi experiencia en la salud y mi pasión por la informática se combinan para impulsarme a crear soluciones significativas y relevantes.",
     "location": {
-      "address": "Chile 633",
+      "address": "",
       "postalCode": "8300",
-      "city": "Neuquén Capital",
+      "city": "Neuquén",
       "countryCode": "AR",
-      "region": "Neuquen"
+      "region": "Argentina"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Ramiro",
-        "url": "https://www.linkedin.com/in/ramiro-cosa-developer/"
+        "username": "Ramiro Cosa",
+        "url": "https://www.linkedin.com/in/ramicosa/"
       },
       {
         "network": "X",
@@ -34,33 +34,33 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Freelancer",
+      "position": "Gerente General",
+      "url": "https://ramirocosa.com",
+      "startDate": "2020-01-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "Programador buscando su destino",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Alegra Salud",
+      "position": "Coordinador, Gestion de quejas y reclamos",
+      "url": "http://alegrasalud.com",
+      "startDate": "2018-06-01",
+      "endDate": null,
+      "summary": "Aca una descripción de lo que hago en Alegra",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "CIKAF",
+      "position": "Referente de Rehabilitacion",
+      "startDate": "2005-03-01",
+      "endDate": "2018-05-01",
+      "summary": "Sanata",
       "highlights": [
         "Started the company"
       ]
@@ -210,36 +210,15 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Alegra Salud Landing Page",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Landing Page for home care services",
       "highlights": [
-        "Elige tu propia aventura",
+        "Landing Page",
         "En desarrollo"
       ],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
+      "url": "https://alegra.com"
+    },    
     {
       "name": "codi.link",
       "isActive": true,
@@ -261,15 +240,6 @@
       ],
       "url": "https://pruebastecnicas.com",
       "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
     }
   ]
 }

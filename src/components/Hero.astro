@@ -5,11 +5,19 @@ import Mail from "./icons/Mail.astro";
 import Phone from "./icons/Phone.astro";
 import GitHub from "./icons/GitHub.astro";
 import LinkedIn from "./icons/LinkedIn.astro";
+import WorldMap from "./icons/WorldMap.astro";
 import X from "./icons/X.astro";
+
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn, X };
-import WorldMap from "./icons/WorldMap.astro";
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const linkedUrl = linkedInfo?.url
+const gitHubInfo = profiles.find(({ network }) => network === "GitHub")
+const GitHubURL = gitHubInfo?.url
+
+const printInfo = [email, phone, linkedUrl, GitHubURL].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -24,7 +32,10 @@ import WorldMap from "./icons/WorldMap.astro";
         <WorldMap />
         {city}, {region}
       </span>
-      <footer>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
@@ -111,9 +122,11 @@ import WorldMap from "./icons/WorldMap.astro";
     letter-spacing:  -0.05rem;
   }
   footer{
+    font-size: 0.65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
+    color: #555;
   }
   footer a {
     display: inline-flex;
